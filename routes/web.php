@@ -49,6 +49,7 @@ Route::get('/deleteItem/{item}','ItemController@destroy');
 Route::get('/showflashmsg','HomeController@showflashMsg');
 
 //=========================================================
+//測試push
 
 //指派給控制器的某個Action，限定登入才能訪問
 //Route::get('/home','HomeController@index')->middleware('auth');
